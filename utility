@@ -1,0 +1,6 @@
+import utils
+
+from utils import find_max
+
+numbers = [6, 9, 10, 69, 3, 28]
+print(utils.find_max(numbers))
