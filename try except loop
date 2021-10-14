@@ -1,0 +1,12 @@
+tries = 999999999
+for i in range(tries):
+        try:
+            age = int(input('Age: '))
+            income = 20000
+            risk = income/age
+            print(age)
+            break
+        except ZeroDivisionError:
+            print('Age can not be zero.')
+        except ValueError:
+            print('Please input answer with numerals.')
